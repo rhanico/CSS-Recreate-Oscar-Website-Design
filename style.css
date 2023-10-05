@@ -277,8 +277,14 @@ section {
     margin: 10px 0; 
 }
 
+.endBanner  {
+    background-color: antiquewhite;
+    margin-bottom: 0;
+}
+
 
 footer {
+    margin-top: 0;
     text-align: center;
     padding: 20px;
     background-color: #333;
