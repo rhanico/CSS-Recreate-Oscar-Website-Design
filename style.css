@@ -1,3 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
+    background-image: url('/assets/background.jpg');
+    background-size: 100% 50%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
     text-align: center;
+    margin: 0;
+}
+
+.additional-navbar {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+
+}
+
+.additional-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.additional-navbar li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+}
+
+
+.additional-navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+hr {
+    color: #ffffff;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Gloock', serif;
+}
+h1 {
+    margin: 50px 50px 80px 50px;
+    color: #ffffff;
+    font-size: 4em;
+    font-family: 'Gloock', serif;
+}
+
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-column {
+    flex: 1;
+    padding: 10px;
+    width: 48%;
+}
+
+label,select,
+input[type="text"], 
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.column-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.column-container h2 {
+    font-size: 24px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
