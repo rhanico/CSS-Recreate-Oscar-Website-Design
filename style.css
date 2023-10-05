@@ -7,7 +7,7 @@ html, body {
 
 
 body {
-    background-image: url('/assets/background.jpg');
+    background-image: url("./assets/background.jpg");
     background-size: 100% 50%; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -18,6 +18,7 @@ body {
 header {
     text-align: center;
     margin: 0;
+    background-color: #094b43;
 }
 
 .additional-navbar {
@@ -50,10 +51,19 @@ header {
     color: white;
 }
 
-
+nav ul {
+    list-style: none;
+}
 
 nav ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
 }
 
 nav li {
@@ -61,10 +71,49 @@ nav li {
     margin-right: 20px;
 }
 
-nav a {
+
+.logo-container a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-left: 50%;
 }
+
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+
+
+.signup-button-container {
+    padding: 0;
+    margin-left: 20px;
+}
+
+
+
+.signup-button {
+    background-color: transparent; 
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    border: .5px solid #fff; 
+    border-radius: 20px;  
+}
+
+.signup-button:hover {
+    background-color: #ffffff; 
+}
+
+
 
 hr {
     color: #ffffff;
@@ -178,6 +227,10 @@ input[type="date"] {
     font-size: 18px; 
 }
 
+section {
+    font-weight: lighter;
+    color: #6a6a6a; 
+}
 
 footer {
     text-align: center;
