@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -8,7 +10,7 @@ body {
     background-image: url('/assets/background.jpg');
     background-size: 100% 50%; 
     background-repeat: no-repeat; 
-    background-attachment: fixed;
+    background-attachment: fixed; 
     font-family: Arial, sans-serif;
 }
 
@@ -78,6 +80,7 @@ main {
 h1, h2, h3 {
     text-align: center;
     font-family: 'Gloock', serif;
+    color: #000000;
 }
 h1 {
     margin: 50px 50px 80px 50px;
@@ -126,6 +129,53 @@ input[type="date"] {
 
 .column-container h2 {
     font-size: 24px;
+}
+
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px auto;
+}
+
+.article, .article2 {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff; 
+}
+
+.article-image, .article-image2 {
+    flex: 0 0 40%;
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+
+.article-image img, .article-image2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-text, .article-text2 {
+    flex: 1;
+}
+
+.article-link {
+    color: rgb(90, 83, 219); 
+    text-decoration: none; 
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.arrow {
+    margin-left: 5px;
+    font-size: 18px; 
 }
 
 
