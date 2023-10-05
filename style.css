@@ -130,12 +130,14 @@ h1, h2, h3 {
     text-align: center;
     font-family: 'Gloock', serif;
     color: #000000;
+    
 }
 h1 {
     margin: 50px 50px 80px 50px;
     color: #ffffff;
     font-size: 4em;
     font-family: 'Gloock', serif;
+    background-color: #094b43;
 }
 
 
